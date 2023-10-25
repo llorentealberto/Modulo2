@@ -1,0 +1,75 @@
+*{margin: 2px;}
+body{
+    border: none;
+}
+
+
+.todo{
+    height: 80vw;
+    width: 60%;
+    flex-direction: column;
+    display: flex ;
+    border: solid black;
+    align-content: center;
+    
+}
+
+.header{
+    border: solid greenyellow;
+
+    height: 15%;
+}
+.nav{
+    border: solid brown;
+    height: 8%;
+}
+.contenedor{
+    border: solid black ;
+    height: 65%;
+    display: flex;
+}
+.articulo{
+    border: solid blue;
+    height: 98%;
+    width: 80%;
+    flex-direction: column;
+    display: flex;
+}
+.head{
+    border: solid rgb(82, 117, 82);
+    height: 15%;
+}
+.espacio{
+    height: 50%;
+}
+.sections{
+    
+}
+.sections section {
+   
+   
+    border: solid purple;
+    
+}
+.foot{
+    height: 15%;
+    border: solid yellow;
+}
+.div{
+    border: solid orange;
+    height: 98%;
+    width: 20%;
+}
+.div aside {
+    border: solid aqua;
+    height: 45%;
+}
+
+.footer{
+    border: solid yellow;
+    height: 9%;
+}   
+
+
+
+
