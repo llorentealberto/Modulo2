@@ -1,0 +1,60 @@
+
+ body{
+    height: 100vh;
+    margin: 0;
+   
+}
+
+.navegacion{
+    width: 100%;
+    display: flex;
+    height: 10%;
+    justify-content: center;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
+.navegacion a{
+    height: fit-content; 
+    width: 33%;
+    text-align: center ;
+    color: aliceblue;
+    
+}
+.contenedor{
+    
+    border: solid black;
+    display: flex;
+    height: 85%;
+   
+    
+    
+}
+.texto{
+    
+    
+    width: 60%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 4%;
+    
+   
+
+}
+.texto h1{
+    display: flex;
+    align-self: flex-start;
+}
+.imagen{
+    display: flex;
+    margin: 5%;
+    align-items: center;
+}
+img{
+    height: 530px;
+    width: 300px;
+}

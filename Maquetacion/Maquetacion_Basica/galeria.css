@@ -1,0 +1,32 @@
+
+body{
+    height: 100vh;
+    margin: 0;
+   
+}
+.navegacion{
+    width: 100%;
+    display: flex;
+    height: 10%;
+    justify-content: center;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
+.navegacion a{
+    height: fit-content; 
+    width: 33%;
+    text-align: center ;
+    color: aliceblue;
+    
+}
+.galery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.galery img{
+    width: 33%;
+}
