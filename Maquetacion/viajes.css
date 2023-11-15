@@ -29,6 +29,7 @@ body{
     align-items: center;
     justify-content: space-around;
     font-size: 23px;
+    text-decoration: none ;
 }  
 .menu {
     list-style: none;
