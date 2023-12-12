@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container-general{
+    width: 195vh;
+    height: 100vh;
+     border: 2px solid black; 
+    /* background-color: blue; */
+}
+    .menu{
+        width: 100%;
+        height: 10%;
+        /* border: 2px solid black; */
+        background-color: black;
+        display: flex;
+    }
+        .container-logo{
+            width: 20%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .logo{
+                width: 90%;
+                height: 80%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .codenotch{
+                    color: white;
+                    display: flex;
+                    font-size: xx-large;
+                }
+        .container-separacion{
+            width: 30%;
+            height: 100%;
+            /* border: 2px solid black; */
+        }
+        .container-inicio-cursos{
+            width: 25%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+        }
+            .container-inicio{
+                width: 50%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .inicio{
+                    width: 90%;
+                    height: 80%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .inicio-txt{
+                        color: white;
+                        display: flex;
+                    }
+            .container-cursos{
+                width: 50%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .cursos{
+                    width: 90%;
+                    height: 80%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .cursos-txt{
+                        color: white;
+                        display: flex;
+                    }
+        .container-equipo-contacto{
+            width: 25%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+        }
+            .container-equipo{
+                width: 50%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .equipo{
+                    width: 90%;
+                    height: 80%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .equipo-txt{
+                        color: white;
+                        display: flex;
+                    }
+            .container-contacto{
+                width: 50%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .contacto{
+                    width: 90%;
+                    height: 80%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .contacto-txt{
+                        color: white;
+                        display: flex;
+                    }
+    .body{
+        width: 100%;
+        height: 90%;
+         
+        background-image: url(https://www.ikusi.com/mx/wp-content/uploads/sites/2/2022/06/post_thumbnail-4efabca9bd56b38edc0058c4ba006481.jpeg);
+        display: flex;
+    }
+        .container-descripcion{
+            width: 70%;
+            height: 100%;
+             /* border: 2px solid black;  */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .cuadro-descripcion{
+                width: 80%;
+                height: 80%;
+                /* border: 2px solid black; */
+                display: flex;
+                flex-direction: column;
+            }
+                .titulo-descripcion{
+                    width: 100%;
+                    height: 20%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    align-items: center;
+                    background: linear-gradient(to right, rgb(0, 0, 0), transparent);
+                    border-radius: 5%;
+                }
+                    .titulo-landing{
+                        color: white;
+                        font-size: xx-large;
+                        display: flex;
+                    }
+                .descripcion{
+                    width: 100%;
+                    height: 65%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    align-items: center;
+                }
+                    .descripcion-landing{
+                        color: white;
+                        font-weight: 400;
+                        font-size: xx-large;
+                        border-radius: 5%;
+                        background: linear-gradient(to right, rgb(0, 0, 0), transparent);
+                        
+                        
+                    }
+                .footer-descripcion{
+                    width: 100%;
+                    height: 15%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                }
+                    .footer-landing{
+                        color: white;
+                        font-size: x-large;
+                        display: flex;
+                        background: linear-gradient(to right, rgb(0, 0, 0), transparent);
+                        border-radius: 10%;
+                    }

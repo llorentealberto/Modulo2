@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.container-general{
+    width: 195.3vh;
+    height: 100vh;
+    /* border: 2px solid black; */
+    /* background-color: blue; */
+}
+    .menu{
+        width: 100%;
+        height: 10%;
+        /* border: 2px solid black; */
+        background-color: black;
+        display: flex;
+    }
+        .container-logo{
+            width: 20%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .logo{
+                width: 90%;
+                height: 80%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .codenotch{
+                    color: white;
+                    display: flex;
+                    font-size: xx-large;
+                }
+        .container-separacion{
+            width: 30%;
+            height: 100%;
+            /* border: 2px solid black; */
+        }
+        .container-inicio-cursos{
+            width: 25%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+        }
+            .container-inicio{
+                width: 50%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .inicio{
+                    width: 90%;
+                    height: 80%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .inicio-txt{
+                        color: white;
+                        display: flex;
+                    }
+            .container-cursos{
+                width: 50%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .cursos{
+                    width: 90%;
+                    height: 80%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .cursos-txt{
+                        color: white;
+                        display: flex;
+                    }
+        .container-equipo-contacto{
+            width: 25%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+        }
+            .container-equipo{
+                width: 50%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .equipo{
+                    width: 90%;
+                    height: 80%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .equipo-txt{
+                        color: white;
+                        display: flex;
+                    }
+            .container-contacto{
+                width: 50%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .contacto{
+                    width: 90%;
+                    height: 80%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .contacto-txt{
+                        color: white;
+                        display: flex;
+                    }
+    .body{
+        width: 100%;
+        height: 90%;
+        /* border: 2px solid black; */
+        background-image: url(https://st4.depositphotos.com/13349494/26799/i/450/depositphotos_267998672-stock-photo-selective-focus-of-young-woman.jpg);
+        display: flex;
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-direction: column;
+    }
+        .container1{
+            width: 100%;
+            height: 33.3%;
+            
+            display: flex;
+        }
+            .container-curso-descripcion1{
+                width: 70%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               
+            }
+                .curso1{
+                    width: 70%;
+                    height: 90%;
+                    /* border: 2px solid black; */
+                    border-radius: 50px;
+                    background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 193, 204));
+                    padding: 20px;
+                    display: flex;
+                    flex-direction: column;
+                }
+            .container-curso-precio1{
+                width: 30%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .precio1{
+                    width: 90%;
+                    height: 90%;
+                    /* border: 2px solid black; */
+                    border-radius: 50px;
+                    background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 193, 204));
+                    padding: 20px;
+                    display: flex;
+                    flex-direction: column;
+                }
+        .container2{
+            width: 100%;
+            height: 33.3%;
+            /* border: 2px solid black; */
+            display: flex;
+        }
+            .container-curso-descripcion2{
+                width: 70%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .precio2{
+                    width: 90%;
+                    height: 90%;
+                    /* border: 2px solid black; */
+                    border-radius: 50px;
+                    background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 193, 204));
+                    padding: 20px;
+                    display: flex;
+                    flex-direction: column;
+
+                }
+            .container-curso-precio2{
+                width: 30%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .curso2{
+                    width: 70%;
+                    height: 90%;
+                    /* border: 2px solid black; */
+                    border-radius: 50px;
+                    background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 193, 204));
+                    padding: 20px;
+                    display: flex;
+                    flex-direction: column;
+                }
+        .container3{
+            width: 100%;
+            height: 33.3%;
+            /* border: 2px solid black; */
+            display: flex;
+        }
+            .container-curso-descripcion3{
+                width: 70%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .curso3{
+                    width: 70%;
+                    height: 90%;
+                    /* border: 2px solid black; */
+                    border-radius: 50px;
+                    background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 193, 204));
+                    padding: 20px;
+                    display: flex;
+                    flex-direction: column;
+                }
+            .container-curso-precio3{
+                width: 30%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .precio3{
+                    width: 90%;
+                    height: 90%;
+                    /* border: 2px solid black; */
+                    border-radius: 50px;
+                    background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 193, 204));
+                    padding: 20px;
+                    display: flex;
+                    flex-direction: column;
+                }
