@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contactForm.css">
+</head>
+<body>
+    <section class="structure">
+        <header class="menu">
+            <div class="container-logo">
+                <a href="inicio.html" class="logo">
+                    <h1>ViajeroLoco</h1>
+                </a>
+            </div>
+            <div class="container-vacio">
+
+            </div>
+            <div class="container-menu">
+                <a href="inicio.html" class="home">
+                    <h3>Home</h3>
+                </a>
+                <a href="masVisitado.html" class="most-visited">
+                    <h3>Lugares + visitados</h2>
+                </a>
+                <a href="contactForm.html" class="contact">
+                    <h3>Contacto</h3>
+                </a>
+            </div>
+        </header>
+        <div class="body">
+            <div class="most-visited1">
+                <div class="container-formulario">
+                    <div class="logo-formulario">
+                        <h1>ViajeroLoco</h1>
+                    </div>
+                    <div class="formulario">
+                        <form action="contactForm.js" method="get" name="formulario-viajes" class="metodo-formulario">
+                            <input type="text" name="nombre" placeholder="Introduce nombre" id="input-formulario1">
+                            <br>
+                            <input type="text" name="origen" placeholder="Introduce origen" id="input-formulario2">
+                            <br>
+                            <input type="text" name="destino" placeholder="Introduce destino" id="input-formulario3">
+                            <br>
+                            <input type="number" name="nPersonas" placeholder="Nº navegantes" id="input-formulario4">
+                            <br>
+                            <input type="text" name="fechas" placeholder="Día partida (dd/mm/aa)" pattern="\d{2}/\d{2}/\d{2}" id="input-formulario5">
+
+                        </form>
+                        <div class="container-boton">
+                           <div class="boton-formulario">
+
+                                <button id="boton-formulario">Solicitar info</button>
+                            </div>
+                            <div class="boton-filtrado">
+                                <button id="boton-filtrado">Filtrar búsquedas</button>
+
+                            </div>
+                            
+                            
+                                <div class="boton-formulario">
+                                    <button id="boton-formulario">Solicitar info</button>
+                                </div>
+                                <div class="boton-filt-busq">
+                                <button id="boton-filtrado">Filtrar búsquedas</button>
+                                </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="contactForm.js"></script>
+</body>
+</html>
